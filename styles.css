@@ -1,0 +1,49 @@
+@charset "UTF-8";
+img{position: absolute;}
+.player1{ 
+	left:225px;
+	top:684px;}
+
+.background{
+	left: 0px;
+	top: 0px;
+}
+.cloud{
+	left: 0px;
+	top: -72;
+	opacity: 0;
+	mix-blend-mode: multiply; 
+	transition: opacity 3s;
+}
+.cloud:hover{
+	opacity:1;
+}
+
+.arrow{
+	left: 880px;
+	top: 1670px;
+
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+.player3{
+	left: 332px;
+	top: 384px;
+}
+
+.cloud2{
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: opacity 3s;
+}
+.cloud2:hover{opacity:1;}
+
+.Twitter{
+	left: 300px
+}
+
+
+
